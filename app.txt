@@ -1,0 +1,36 @@
+Name, Age, Country
+Alice, 30, USA
+Bob, 25, UK
+Charlie, 35, Canada
+
+
+## stringify it then put it into an array
+water
+food
+shelter
+clothing
+mobile
+
+```js
+const data = [];
+
+    data[0] = "water";
+    data[1] = "food";
+    data[2] = "shelter";
+    data[3] = "clothing";
+    data[4] = "mobile";
+```
+
+## motion:
+1. `vip` to select the whole paragraph
+2. `:s/\(\w.*\)/data[0\ = "\1";` to add `data[0] = "water";` to the beginning of each line
+3. `f0` to find the first `0`4. `Ctrl-v` to select the character
+5. `4k` to select the 4 lines above
+6. `g<C-a>` to increment the numbers like iota in vim if don't have `g` it will increse individually by 1
+
+
+
+
+
+
+
